@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import {FlexRow, FlexColumn} from '../layout'
 
 export const ListContainer = styled(FlexColumn)`
-    width: 100%;
-    margin: auto;
+    width: auto;
+    margin: auto 10px;
     height: 200px;
-    background-color: red;
+    background-color: #f7f7f7;
+    border-radius: 20px;
 `
