@@ -45,6 +45,8 @@ export const HamburgerIconDiv = styled(NavBarButton)`
     @media (min-width: 1025px) {
         display: none;
     } ;
+    padding: none;
+    max-height: 50px;
 `;
 export const DropDownItems = styled(FlexColumn)`
     display: none;

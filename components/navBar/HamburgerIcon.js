@@ -1,8 +1,8 @@
 export default function HamburgerIcon() {
     return (
         <svg
-            width="40px"
-            height="40px"
+            width="50px"
+            height="50px"
             viewBox="0 0 24 24"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +13,7 @@ export default function HamburgerIcon() {
                 <g
                     id="Mobile---List-View"
                     transform="translate(-26.000000, -119.000000)"
-                    fill="black"
+                    fill="#09899e"
                 >
                     <g id="Group-6" transform="translate(0.000000, 94.000000)">
                         <g id="Mobile-Header" transform="translate(26.000000, 14.000000)">

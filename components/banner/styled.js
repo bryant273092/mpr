@@ -4,7 +4,7 @@ import {FlexColumn, FlexRow} from '../layout'
 export const BannerContainer = styled(FlexColumn)`
     width: 100%;
     height: 60vh;
-    background-image: url(/lights.jpg);
+    background-image: url(/mpr-background.webp);
     background-size: cover;
 `
 export const BannerHeader = styled.h1`
@@ -34,21 +34,24 @@ export const BannerText = styled(BannerHeader)`
 export const BannerButtonGrid = styled(FlexRow)`
     width: 55%;
     margin: auto;
+    justify-content: center;
+    align-items: center;
     @media (max-width: 640px) {
         flex-direction: column;
         width: 60%
     } ;
 `
-export const BannerButton = styled.a`
-    width: 100%;
-    margin: 10px 5px; 
-    color: white;
+export const BannerButton = styled.button`
+    width: 200px;
+    margin: 15px;
+    color: #09899e;
     text-align: center;
-    border-radius: 20px;
-    border: solid 3px white;
-    font-size: 25px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
     @media (max-width: 500px) {
         font-size: 1em;
     } ;

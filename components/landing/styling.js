@@ -25,5 +25,9 @@ export const HeadingItem = styled.h3`
 export const ItemDescription = styled.p`
     color: gray;
     padding: 0px 10%;
-    margin: 0px;
+`
+export const IconDiv = styled(FlexColumn)`
+    color: #09899e;
+    font-size: 75px;
+    margin-top: 10px;
 `
