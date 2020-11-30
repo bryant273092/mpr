@@ -6,8 +6,8 @@ export const Banner = () => {
             <BannerHeader>Magical Party Rentals</BannerHeader>
             <BannerText>Rentals for all your magical events</BannerText>
             <BannerButtonGrid>
-                <BannerButton href='/products'>View Products</BannerButton>
-                <BannerButton href='/contact'>Place Order</BannerButton>
+                <BannerButton><a href="/products">View Products</a></BannerButton>
+                <BannerButton ><a href="/products">Place Order</a></BannerButton>
             </BannerButtonGrid>
         </BannerContainer>
     )

@@ -60,16 +60,16 @@ export const DropDownItems = styled(FlexColumn)`
     }
 `;
 export const DropDownItem = styled(NavBarButton)`
-    color: white;
+    color: black;
     padding: 10px;
-    border-bottom: 1px solid #f57b48 !important;
+    border-bottom: 1px solid #09899e !important;
     margin: auto 0px;
 `;
 export const MobileListContainer = styled(FlexColumn)`
-    background-color: black;
+    background-color: white;
     flex-direction: column;
     position: absolute;
-    border-top: 1px solid #f57b48;
+    border-top: 1px solid #09899e;
     top: 50px;
     left: 0px;
     right: 0px;

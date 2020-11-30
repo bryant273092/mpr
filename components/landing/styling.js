@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 export const LandingSection = styled(FlexRow)`
     width: 100%;
-    height: 300px;
     padding: auto 20px;
     @media (max-width: 640px) {
         flex-direction: column;

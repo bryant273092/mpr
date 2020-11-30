@@ -14,7 +14,6 @@ export const BannerHeader = styled.h1`
     text-align: center;
     border-radius: 20px;
     font-size: 3.2em;
-    
     @media (max-width: 640px) {
         font-size: 2em;
         

@@ -3,35 +3,63 @@
         "name": "White Foldable Chair",
         "image": "/whitechair.png",
         "price": "0.70",
-        "quantity": "200",
+        "quantity": 0,
         "description": "Fold-away chairs, durable, for indoor and outdoor use."
     },
     {
         "name": "White 6 Feet Foldable Table",
         "image": "/whitetable.png",
         "price": "7.00",
-        "quantity": "20",
-        "description": "Fold-away tables, durable, for indoor and outdoor use, 6 feet long, sits 6."
+        "quantity": 0,
+        "description": "Fold-away tables, durable, for indoor and outdoor use, 6 feet height, sits 6."
     },
     {
         "name": "White 5 Feet Round Table",
         "image": "/white_round_table.png",
         "price": "8.00",
-        "quantity": "10",
+        "quantity": 0,
         "description": "Fold-away tables, durable, for indoor and outdoor use 5 feet diameter, sits 5"
-    },
-    {
-        "name": "Gender Neutral Bounce House",
-        "image": "/bounce_house.png",
-        "price": "70.00",
-        "quantity": "2",
-        "description": "Fold-away bouncehouse, 12ft x 13ft dimensions, ages 14 and under, gender neutral color scheme"
     },
     {
         "name": "Propane Patio Heater",
         "image": "/patio_heater.png",
         "price": "60.00",
-        "quantity": "4",
+        "quantity": 0,
         "description": "Propane fueled outdoor patio heater, 5 feet range, propane tank optional"
+    },
+    {
+        "name": "Non-Binary Bounce House",
+        "image": "/bounce_house.png",
+        "price": "70.00",
+        "quantity": 0,
+        "description": "Fold-away bouncehouse, 12ft x 13ft dimensions, ages 14 and under, gender neutral color scheme"
+    },
+    {
+        "name": "20x30 White Pole Canopy",
+        "image": "/white_canopy.png",
+        "price": "130.00",
+        "quantity": 0,
+        "description": "Heavy-duty pole canopy, 20ft x 30ft dimensions, uncovered sides"
+    },
+    {
+        "name": "20x30 White Pole Covered Canopy",
+        "image": "/white_canopy.png",
+        "price": "150.00",
+        "quantity": 0,
+        "description": "Heavy-duty pole canopy, 20ft x 30ft dimensions, covered sides"
+    },
+    {
+        "name": "20x40 White Pole Canopy",
+        "image": "/white_canopy.png",
+        "price": "150.00",
+        "quantity": 0,
+        "description": "Heavy-duty pole canopy, 20ft x 40ft dimensions, uncovered sides"
+    },
+    {
+        "name": "20x40 White Pole Covered Canopy",
+        "image": "/white_canopy.png",
+        "price": "170.00",
+        "quantity": 0,
+        "description": "Heavy-duty pole canopy, 20ft x 40ft dimensions, covered sides"
     }
 ] 
