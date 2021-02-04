@@ -24,6 +24,7 @@ export const Input = styled.input`
     color: #09899e;
     text-align: center;
     font-size: 30px;
+    border: 2px solid gold;
 `
 export const InputDiv = styled(FlexRow)`
     width: 80%;

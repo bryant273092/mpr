@@ -13,7 +13,7 @@ export default function HamburgerIcon() {
                 <g
                     id="Mobile---List-View"
                     transform="translate(-26.000000, -119.000000)"
-                    fill="#09899e"
+                    fill="white"
                 >
                     <g id="Group-6" transform="translate(0.000000, 94.000000)">
                         <g id="Mobile-Header" transform="translate(26.000000, 14.000000)">

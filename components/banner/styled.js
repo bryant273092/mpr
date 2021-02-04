@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {FlexColumn, FlexRow} from '../layout'
 
 export const BannerContainer = styled(FlexColumn)`
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     background-image: url(/mpr-background.webp);
     background-size: cover;

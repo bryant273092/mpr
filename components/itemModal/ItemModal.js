@@ -5,9 +5,8 @@ import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { HeadingOne } from '../layout/styled';
 import React from 'react';
 
-export const ItemModal = ({ item, setisOpen, itemCart, setItemCart}) => {
+export const ItemModal = ({ item, setisOpen, itemCart, setItemCart }) => {
     const [itemCount, setItemCount] = React.useState(1)
-    console.log(itemCart)
     return (
         <ModalContainer>
             <Heading>Enter Quantity</Heading>
@@ -19,29 +18,30 @@ export const ItemModal = ({ item, setisOpen, itemCart, setItemCart}) => {
                     if (+itemCount > 1) {
                         setItemCount(((+itemCount) - 1))
                     }
-                    
+
                 }}>
                     <FontAwesomeIcon style={{ padding: "0px", color: "#f54b42", fontSize: "25px" }} icon={faArrowDown} />
                 </a>
 
                 <Input type="number" value={itemCount} onChange={(event) => {
-                    setItemCount(((event.target.value > 1) ? event.target.value : 1 ))
-                }}/>
-                <a onClick={ () => {
+                    setItemCount(((event.target.value > 1) ? event.target.value : 1))
+                }} />
+                <a onClick={() => {
                     setItemCount(((+itemCount) + 1))
                 }}>
                     <FontAwesomeIcon style={{ padding: "0px", color: "#3fab2e", fontSize: "25px" }} icon={faArrowUp} />
                 </a>
-                
+
             </InputDiv>
+            <HeadingThree>{"Cost: $" + (itemCount * item.price).toFixed(2)}</HeadingThree>
             <CenteredDiv style={{ flexDirection: "column", marginTop: "20px" }}>
                 <Button style={{ marginBottom: "10px" }} color="#3fab2e">
-                    <a onClick={ () => {
+                    <a onClick={() => {
                         item.quantity = itemCount;
                         setItemCart([item].concat(itemCart))
                         setisOpen(false)
                     }}>Add to Cart</a>
-                    
+
                 </Button>
                 <Button color="#f54b42">
                     <a onClick={() => {

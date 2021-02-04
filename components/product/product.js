@@ -6,15 +6,21 @@ import ItemModal from '../itemModal';
 
 const customStyles = {
     content: {
-        borderRadius: "10px",
-        inset: "auto 40px",
         justifyContent: "center",
+        inset: "",
         alignItems: "center",
-        marginTop: "15%"
-    },
+        width: '90%',
+        maxWidth: '500px',
+        height: 'auto',
+        margin: "auto",
+        marginTop: "15%",
+        position: 'relative'
+        
+      },
     overlay: {
         backgroundColor: 'rgba(0, 0, 0, .25)',
     }
+    
 };
 
 export const Product = ({ data, setEstimate, estimateCost, setDisplay, setItemCart, itemCart }) => {
@@ -27,7 +33,6 @@ export const Product = ({ data, setEstimate, estimateCost, setDisplay, setItemCa
             <ProductPrice>{"$" + data.price}</ProductPrice>
             <CenteredDiv>
                 <Button onClick={() => {
-                    setEstimate(((+data.price) + (+estimateCost)))
                     setDisplay("Flex")
                     setIsOpen(true)
                 }}>
@@ -35,6 +40,7 @@ export const Product = ({ data, setEstimate, estimateCost, setDisplay, setItemCa
                 </Button>
             </CenteredDiv>
             <ReactModal
+                ariaHideApp={false}
                 isOpen={modalIsOpen}
                 style={customStyles}
                 contentLabel={"COVID-19 Update"}>
